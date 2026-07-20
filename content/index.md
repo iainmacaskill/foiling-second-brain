@@ -35,23 +35,23 @@ description: An AI-maintained knowledge base built from 147 episodes of a foilin
   overflow: hidden;
   margin-top: 0.5rem;
   padding: 0.9rem 1.8rem;
-  border: 1px solid var(--lightgray);
+  border: 1px solid #c0392b;
   border-radius: 8px;
-  background: var(--light);
-  color: var(--dark);
+  background: #e74c3c;
+  color: #fff;
   font-family: var(--headerFont);
   font-size: 1rem;
   cursor: pointer;
 }
-.open-graph-button:hover { border-color: var(--gray); }
+.open-graph-button:hover { background: #c0392b; }
 .open-graph-button-icon {
   position: absolute;
   inset: 0;
   margin: auto;
   width: 65%;
   height: 65%;
-  opacity: 0.13;
-  color: var(--secondary);
+  opacity: 0.18;
+  color: #fff;
   pointer-events: none;
 }
 .open-graph-button span { position: relative; z-index: 1; font-weight: 600; }
